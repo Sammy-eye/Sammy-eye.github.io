@@ -567,6 +567,7 @@ table {
 /* General styles for the rectangle image */
 .rectangle-img {
     max-width: 25%; /* Ensure the image scales responsively */
+    min-width: 150px; /* Set a minimum width to prevent it from getting too small */
     height: auto; /* Maintain aspect ratio */
     object-fit: cover; /* Prevent distortion */
     display: block; /* Ensure proper block-level alignment */
