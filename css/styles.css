@@ -2778,7 +2778,26 @@ td:last-child {
 .section-header.light-on-dark::before {
     color: rgba(255, 255, 255, 0.15);
 }
+    /* Make research paper titles neutral or custom colored */
+    .research-papers-list .paper-title {
+        color: #333; /* dark gray (or use black: #000) */
+        font-weight: 500;
+        text-decoration: none;
+    }
 
+    /* Optional hover effect if clickable (links) */
+    .research-papers-list .paper-title:hover {
+        color: #0077cc; /* blue on hover, change if you like */
+    }
+
+    /* If you’re using <a> tags for titles */
+    .research-papers-list a.paper-title {
+        color: #333;
+    }
+
+    .research-papers-list a.paper-title:hover {
+        color: #0077cc;
+    }
 /* ------------------------------------------------------------------- 
  * ## social list
  * ------------------------------------------------------------------- */
